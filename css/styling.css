@@ -1,0 +1,97 @@
+body
+{
+	margin:0;
+	padding: 0;
+	background-size: cover;
+	font-family: sans-serif;
+	background: url('https://cdn.shopify.com/s/files/1/0059/0056/6597/products/photo-id-2074478968901-college-students-studying-together-in-a-library.jpg?v=1563885265');
+}
+
+.user
+{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-60px/2);
+	left: calc(50% - 50px);
+}
+
+.loginBox input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+h2
+{
+	margin: 0;
+	padding: 0 0 20px;
+	color:#efed40;
+	text-align: center;
+}
+
+.loginBox
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 350px;
+	height: 520px;
+	box-sizing: border-box;
+	padding: 80px 40px;
+	background: rgba(0,0,0,.5);
+}
+
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+::placeholder
+{
+	color:rgba(255,255,255,.5);
+}
+
+.loginBox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color:#fff;
+	font-size: 16px;
+	background: #ff267e;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+.loginBox input[type="submit"]:hover
+{
+	background: #efed40;
+	color:#262626;
+}
+
+.loginBox a
+{
+	color:#fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.faq-ques
+{
+	height: 200px;
+	width: 340px;
+	margin-left: 20px;
+	position: absolute;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+}
